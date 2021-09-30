@@ -66,6 +66,11 @@
   }
 }
 
+.firstView + div{
+  min-height: 100vh;
+}
+
+
 
 @for $pr from 1 through 10 {
   .positionRight-#{$pr} {
